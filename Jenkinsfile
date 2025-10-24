@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-username>/dotnet-hello-world.git'
+                git 'https://github.com/Sachinkhillari0621/dotnet-hello-world.git'
             }
         }
 
